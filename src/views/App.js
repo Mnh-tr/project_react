@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
+// eslint-disable-next-line no-unused-vars
+import MyComponents from './Example/MyComponents.js';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponents />
       </header>
     </div>
   );
