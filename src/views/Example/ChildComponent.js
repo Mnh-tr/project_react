@@ -11,7 +11,7 @@ class ChildComponent extends React.Component {
   render() { 
     return (
       <>
-         <div>Child Component: {this.props.name}
+         <div>Child Component: {this.props.name} - {this.props.age}
         </div>
 
       </>
